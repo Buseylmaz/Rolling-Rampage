@@ -128,3 +128,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 10
+  hasPowerup: 0
+  powerupIndicator: {fileID: 0}

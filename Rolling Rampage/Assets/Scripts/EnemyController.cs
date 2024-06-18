@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    [SerializeField] float enemySpeed;
-
     Rigidbody rigidbody;
-
     GameObject playerPosition;
+
+    [Header("Enemy")]
+    [SerializeField] float enemySpeed;
 
     private void Start()
     {
