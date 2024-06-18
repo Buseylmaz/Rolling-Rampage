@@ -10,6 +10,8 @@ public class EnemyController : MonoBehaviour
     [Header("Enemy")]
     [SerializeField] float enemySpeed;
 
+    float positionY = -10;
+
     private void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
@@ -23,5 +25,10 @@ public class EnemyController : MonoBehaviour
         Vector3 lookDirection = (playerPosition.transform.position - transform.position).normalized;
 
         rigidbody.AddForce(lookDirection * enemySpeed);
+
+        if (gameObject.transform.position.y < positionY)
+        {
+            Destroy(gameObject);
+        }
     }
 }
