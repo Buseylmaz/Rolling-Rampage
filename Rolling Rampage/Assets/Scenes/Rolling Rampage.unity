@@ -234,10 +234,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79267aecb5082a04dad8a45850359691, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefabs: {fileID: 2839889001953929790, guid: 55a824925b32bb1438c41283617e32d6, type: 3}
+  enemyPrefabs:
+  - {fileID: 2839889001953929790, guid: 55a824925b32bb1438c41283617e32d6, type: 3}
+  - {fileID: 8135279703848858684, guid: 976b6e6b030ec21469bea0ed0e557b67, type: 3}
+  powerupPrefabs:
+  - {fileID: 7903425531579316691, guid: 2d823b2d5003f6b4cb6c4fb4874ca727, type: 3}
+  - {fileID: 7341540606661802820, guid: 01b1304f35dd793429df5ebf94132dc9, type: 3}
   enemyCount: 0
   waveNumber: 1
-  powerupPrefabs: {fileID: 7903425531579316691, guid: 2d823b2d5003f6b4cb6c4fb4874ca727, type: 3}
+  pointPosition: 9
 --- !u!4 &409054601
 Transform:
   m_ObjectHideFlags: 0
